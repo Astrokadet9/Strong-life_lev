@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    
+    width: 100%;
+
+    
+}
+
+header{
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a img{
+    width: 15px;
+}
+h1{
+    text-align: center;
+}
+.foto{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+   
+}
+.foto:hover{
+    transform: scale(2);
+    transition: all 0.5s ease-out;
+    opacity: 1;
+}
+body{
+    background-color: gray;
+}
+a{
+    color: black;
+}
+.foti{
+    height: 200px;
+    width:200px;
+   
+    
+}
+
+.space{
+    height: 120px;
+}
+
+section{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+     border: dashed 2px black;
+
+}
